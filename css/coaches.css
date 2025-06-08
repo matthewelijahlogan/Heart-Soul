@@ -1,0 +1,78 @@
+/* coaches.css */
+
+.coaches-container {
+  max-width: 1100px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  color: var(--white);
+  text-align: center;
+}
+
+.coaches-container h2 {
+  font-family: 'Bangers', cursive;
+  font-size: 2.5rem;
+  color: var(--pink);
+  margin-bottom: 1rem;
+}
+
+.coaches-container .intro {
+  font-size: 1.1rem;
+  margin-bottom: 2.5rem;
+  color: var(--white);
+}
+
+.coach-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.coach-card {
+  background-color: var(--gunmetal);
+  border: 2px solid var(--pink);
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--white);
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 300px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.coach-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+  border-color: var(--accent);
+}
+
+.coach-card img {
+  width: 50%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.coach-card h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: var(--pink);
+}
+
+.coach-card p {
+  font-size: 1rem;
+  color: var(--white);
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .coaches-container h2 {
+    font-size: 2rem;
+  }
+
+  .coach-card {
+    padding: 1rem;
+  }
+}

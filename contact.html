@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Ho'oponopono</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+  <header>
+    <div class="logo" onclick="toggleMenu()">
+      <img src="img/club_logo.png" alt="Club Logo">
+      <span class="club-title">HVBC</span>
+    </div>
+    <nav id="dropdownMenu">
+      <a href="index.html">Home</a>
+      <a href="coaches.html">Coaches</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <hr class="section-divider">
+
+  <main class="container">
+    <h2>Contact Us</h2>
+    <p>We’re here to help! Please fill out the form below and we will get back to you shortly.</p>
+
+    <form class="contact-form" action="#" method="POST" novalidate>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="(optional)">
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+      <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+
+    <section class="contact-info">
+      <h3>Club Location</h3>
+      <p>123 Volleyball Lane<br>Connellsville, PA 15425</p>
+
+      <h3>Contact Details</h3>
+      <p>Phone: (724) 557-0329<br>Email: jlcvb20@gmail.com</p>
+
+      <h3>Follow Us</h3>
+      <p>
+        <a href="#" aria-label="Facebook">Facebook</a> |
+        <a href="#" aria-label="Twitter">Twitter</a> |
+        <a href="#" aria-label="Instagram">Instagram</a>
+      </p>
+    </section>
+  </main>
+
+  <hr class="section-divider">
+
+  <footer>
+    <p>&copy; 2025 Ho'oponopono. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
