@@ -8,7 +8,7 @@
 }
 
 .service-container h1 {
-  font-family: 'Bangers', cursive;
+  font-family: 'Overlock Bold', cursive;
   font-size: 2.8rem;
   color: var(--pink);
   margin-bottom: 1rem;
@@ -23,7 +23,7 @@
 
 .service-description img {
   display: block;
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   margin: 0 auto 2rem auto;
   border-radius: 8px;

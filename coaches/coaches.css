@@ -2,7 +2,7 @@
 
 /* Reset & inherit base font */
 body {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Overlock', sans-serif;
   background-color: var(--gunmetal);
   color: var(--white);
   margin: 0;
@@ -11,7 +11,7 @@ body {
 
 .club-title {
   font-size: 2rem;
-  font-family: 'Racing Sans One', cursive;
+  font-family: 'Overlock Bold', cursive;
   font-weight: bold;
   margin-top: 0.5rem;
 }
@@ -55,7 +55,7 @@ body {
 }
 
 .coach-name {
-  font-family: 'Bangers', cursive;
+  font-family: 'Overlock Bold', cursive;
   font-size: 2rem;
   color: var(--pink);
   margin-bottom: 0.5rem;
@@ -69,7 +69,7 @@ body {
 }
 
 .coach-bio {
-  font-family: 'Racing Sans One', sans-serif;
+  font-family: 'Overlock', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   color: var(--white);
