@@ -32,15 +32,20 @@
   src: url('../fonts/SedgwickAveDisplay-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Overlock';
+  src: url('../fonts/Overlock-Regular.ttf') format('truetype');
+}
 
 body {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Overlock', sans-serif;
   background-color: var(--gunmetal);
   color: var(--white);
   line-height: 1.6;
 }
 
 header {
+  height:10%;
   background-color: var(--off_white);
   color: var(--gunmetal);
   padding: 1rem 2rem;
@@ -60,9 +65,13 @@ header {
 }
 
 .logo img {
-  max-width: 100px;
-  height: auto;
+  height: 100%;
+  width: auto;
+  max-height: 100px; /* optional: controls max logo height */
+  object-fit: contain;
+  animation: fadeSlideDown 1s ease-out;
 }
+
 
 .club-title {
   font-size: 2rem;
